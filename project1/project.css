@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: lightgrey;
+}
+.box1{
+    background-color: rebeccapurple;
+}
+.box2{
+    background-color: rgb(209, 155, 55);
+}

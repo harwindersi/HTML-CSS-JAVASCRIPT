@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(103, 166, 196);
+}
+.container{
+    display: flex;
+    margin-left:250px;
+}
+.button{
+    display: flexbox;
+    margin-top:100px;
+    margin-left:30px;
+     width: 100px;
+     height: 100px;
+     border-radius: 50px;
+
+}
+#paper{
+background:url("/paperlogo.png");
+
+background-size: cover;
+
+}
+#paper:hover{
+    background-color:rgb(19, 209, 243);
+    background-image: none;
+    color:rgb(206, 223, 214);
+    font-size:3vw;
+}
+#rock{
+    background: url("/rocklogo.jpg");
+    background-size: cover;
+}
+#rock:hover{
+    background-color:rgb(19, 209, 243);
+    background-image: none;
+    color:rgb(206, 223, 214);
+    font-size:3vw;
+}
+#sezer{
+    background: url("/sezerlogo.jpg");
+    background-size: cover;
+}
+#sezer:hover{
+    background-color:rgb(19, 209, 243);
+    font-size:3vw;
+    background-image: none;
+    color:rgb(206, 223, 214);
+}

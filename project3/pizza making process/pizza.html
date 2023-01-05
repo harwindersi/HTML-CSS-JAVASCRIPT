@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    /* background-color:rgba(36, 31, 31, 0.993); */
+    background: url("/wooden.webp")  no-repeat;
+    background-size: cover;
+    color: aliceblue;
+}
+.box2{
+    color: aliceblue;
+font-size:10vh;
+}
+.ingrediantList{
+    
+    background: url("/4k.jpg") no-repeat;
+    background-size:contain;
+    height:auto;
+    width: max-content;
+    color: beige;
+    display: inline-flex;
+    gap:10vw;
+}
+.Right-half{ 
+    width: 30vw;
+    /* background-color: aqua; */
+    color: aliceblue;
+    margin-left:15vw;
+    font-size:5vh;
+}
+.Left-half{
+    font-size:5vh;
+    /* margin-left:; */
+    width: 30vw;
+    color: aliceblue;
+    /* background-color: rgb(51, 255, 0); */
+
+}
+.bookimg{
+     margin-left:30vw;
+    width: 20vw;
+    height:30vh;
+}
+</style>
+<body>
+    
+    <div class="container">
+        <center>
+        <div class="img"><img src="/pizzabg2.webp" class="img"></div>
+        </center>
+        <center>
+            <div class="box2"><h1>Ingrediant Use in pizza</h1>
+            </center>
+</div>
+<div class="ingrediantList">
+      <div class="Right-half">
+
+          <ul>
+              <li>water</li>
+              <li>flour</li>
+              <li>paper</li>
+              <li>egg</li>
+              <li>salt</li>
+              <li>water</li>
+              <li>egg</li>
+              <li>salt</li>
+          </ul>
+            </div>
+         
+            <div class="Left-half">
+                    <ul>
+                <li>flour</li>
+                <li>paper</li>
+                <li>egg</li>
+                <li>salt</li>
+            <li>water</li>
+            <li>flour</li>
+            <li>paper</li>
+        </ul>
+    </div>
+        
+         </div>
+         <div class="Recipes"> <center><h1>You can get recipe in below red book</h1> -<h2>click on book</h2></center>
+          <img src="/recipe1.png" class="bookimg" onclick="book()"></div>
+        </div>
+    
+</body>
+<script>
+const book=()=>{
+    document.location.href="C:\Users\parminder singh\Desktop\java script project\project3\recipes\Recipebook.html";
+}
+book();
+</script>
+</html>

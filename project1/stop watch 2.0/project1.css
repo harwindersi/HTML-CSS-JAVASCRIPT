@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(209, 211, 212);
+}
+.box1{
+    
+    margin-top:2vw;
+    background-color: rgb(224, 134, 15);
+    width:20vw;
+    border-radius:4vw;
+
+}
+.btnbox{
+    background-color:rgba(14, 205, 219, 0.753);
+    width: 20vw;
+    color: red;
+}
+.round{
+    background-color:brown;
+    width:20vw;
+    /* height:20vw; */
+    border-radius:15vw;
+    background: url("/OIP.jpg");
+
+}
